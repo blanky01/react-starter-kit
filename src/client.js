@@ -14,7 +14,9 @@ import queryString from 'query-string';
 import { createPath } from 'history/PathUtils';
 import App from './components/App';
 import createFetch from './createFetch';
+//创建的浏览器history对象
 import history from './history';
+//修改meta标签的方法
 import { updateMeta } from './DOMUtils';
 import router from './router';
 
